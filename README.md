@@ -1,17 +1,17 @@
-bsvd
+bfvd
 ====
 [![Build Status](https://travis-ci.org/bitcoinsv/bsvd.png?branch=master)](https://travis-ci.org/bitcoinsv/bsvd)
 [![Go Report Card](https://goreportcard.com/badge/github.com/bitcoinsv/bsvd)](https://goreportcard.com/report/github.com/bitcoinsv/bsvd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/bitcoinsv/bsvd)
 
-bsvd is a full node Bitcoin (BSV) implementation written in Go (golang).
+bfvd is a full node Bitcoin Frog Vision (BFV) implementation written in Go (golang).
 
-This project is a port of the [bchd](https://github.com/gcash/bchd) codebase to Bitcoin (BSV). It provides a high powered
+This project is a port of the [bsvd](https://github.com/bitcoinsv/bsvd) codebase to Frog Vision (BFV). It provides a high powered
 and reliable blockchain server which makes it a suitable backend to serve blockchain data to lite clients and block explorers
 or to power your local wallet.
 
-bsvd does not include any wallet functionality by design as it makes the codebase more modular and easy to maintain. 
+bfvd does not include any wallet functionality by design as it makes the codebase more modular and easy to maintain. 
 The [bsvwallet](https://github.com/bitcoinsv/bsvwallet) is a separate application that provides a secure Bitcoin (BSV) wallet 
 that communicates with your running bsvd instance via the API.
 
@@ -105,12 +105,12 @@ Contributions are definitely welcome! Please read the contributing [guidelines](
 
 To report security issues please contact:
 
-Chris Pacia (ctpacia@gmail.com) - GPG Fingerprint: 0150 2502 DD3A 928D CE52 8CB9 B895 6DBF EE7C 105C
+Coin Alchemist (phil@infinitegame.co)
 
 or
 
-Josh Ellithorpe (quest@mac.com) - GPG Fingerprint: B6DE 3514 E07E 30BB 5F40  8D74 E49B 7E00 0022 8DDD 
+Coin Yeezy (hello@twetch.com)
 
 ## License
 
-bsvd is licensed under the [copyfree](http://copyfree.org) ISC License.
+bfvd is licensed under the [copyfree](http://copyfree.org) ISC License.
